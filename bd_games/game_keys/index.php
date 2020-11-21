@@ -26,7 +26,6 @@ while ($row = mysqli_fetch_array($result)){
 print "</table>";
 $num_rows = mysqli_num_rows($result); // число записей в таблице БД
 print("<P>Всего: $num_rows </p>");
-
 ?>
 <p> <a href="new.php"> Добавить </a>
 <p> <a href="http://f0472780.xsph.ru/loseva/WWW/bd_user/bd_games/index.php"> Назад </a>
