@@ -22,7 +22,6 @@ while ($row = mysqli_fetch_array($result)){
 print "</table>";
 $num_rows = mysqli_num_rows($result); 
 print("<P>Всего: $num_rows </p>");
-
 ?>
 <p> <a href="http://f0472780.xsph.ru/loseva/WWW/bd_user/bd_games/index.php"> Назад </a>
 <p> <a href="new.html"> Добавить </a>
